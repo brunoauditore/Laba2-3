@@ -145,7 +145,6 @@ public class Run {
 
             @Override
             public int compare(Stone stone1, Stone stone2) {
-                System.out.println(stone1.price +" " + stone2.price);
                 return Integer.valueOf(stone1.price).compareTo(stone2.price);
             }
         });
