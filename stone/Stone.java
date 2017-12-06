@@ -8,7 +8,8 @@ public class Stone {
     private int mass;
     private int quality;
     private String name;
-    int price;
+    // public - так простіше сортировку зробити
+    public int price;
 
     @Override
     public String toString() {
